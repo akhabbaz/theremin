@@ -4,54 +4,54 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+Theremin/*.suo
+Theremin/*.user
+Theremin/*.userosscache
+*Theremin/*.sln.docstates
 
 # User-specific files (MonoDevelop/Xamarin Studio)
-*.userprefs
+*Theremin/*.userprefs
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
+Theremin/[Dd]ebug/
+Theremin/[Dd]ebugPublic/
+Theremin/[Rr]elease/
+Theremin/[Rr]eleases/
+Theremin/x64/
+Theremin/x86/
+Theremin/bld/
+Theremin/[Bb]in/
+Theremin/[Oo]bj/
+Theremin/[Ll]og/
 
 # Visual Studio 2015/2017 cache/options directory
-.vs/
+Theremin/.vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
 # Visual Studio 2017 auto generated files
-Generated\ Files/
+Theremin/Generated\ Files/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+Theremin/[Tt]est[Rr]esult*/
+Theremin/[Bb]uild[Ll]og.*
 
 # NUNIT
-*.VisualState.xml
-TestResult.xml
+Theremin/*.VisualState.xml
+Theremin/TestResult.xml
 
 # Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
-dlldata.c
+Theremin/[Dd]ebugPS/
+Theremin/[Rr]eleasePS/
+Theremin/dlldata.c
 
 # Benchmark Results
-BenchmarkDotNet.Artifacts/
+Theremin/BenchmarkDotNet.Artifacts/
 
 # .NET Core
-project.lock.json
-project.fragment.lock.json
-artifacts/
+Theremin/project.lock.json
+Theremin/project.fragment.lock.json
+Theremin/artifacts/
 **/Properties/launchSettings.json
 
 # StyleCop
