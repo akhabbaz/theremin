@@ -1,0 +1,13 @@
+
+
+PlayNote:
+
+
+I had trouble getting OCR1 to drive the buzzer.  If I set the pin to output and
+toggled it it worked.
+
+I got all three sounds to work!   It triggers using output compare and drives the
+interrupt.  The interrupt ends the buzz sound.
+
+
+

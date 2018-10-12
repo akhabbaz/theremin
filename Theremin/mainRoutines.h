@@ -9,15 +9,21 @@
 #ifndef MAINROUTINES_H_
 #define MAINROUTINES_H_
 
-#define F_CPU 16000000L
-#include <avr/io.h>
+#include "setFreq.h"
+#include "UART.h"
+#include <util/delay.h>
 
 void init0r2(void);
 void main0r2(void);
 
 void init0r3(void);
 void main0r3(void);
+void mainPlayTone(void);
 void init0r3Timer0(void);
+
+enum Tone {LOW= 0, MEDIUM, HIGH};
+
+void playTone(enum Tone x);
 
 
 #endif /* MAINROUTINES_H_ */
